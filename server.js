@@ -466,7 +466,7 @@ app.delete('/delete_borrowlist/:id', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.json('server is running')
+    res.json('server is running !!!')
 });
 
 app.listen(port, () => {
